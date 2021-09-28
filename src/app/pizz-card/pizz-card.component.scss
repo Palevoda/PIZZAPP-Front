@@ -1,0 +1,69 @@
+.pizza-card
+{
+   box-shadow: 0px 0px 4px gray;
+   
+}
+
+
+@media(max-width: 500px)
+{
+    .pizza-card
+{
+   margin: auto;
+   
+}
+}
+
+.pizza-card > img
+{
+    width: 100%;
+}
+
+.pizza-card > h2
+{
+    text-align: center;
+    font-size: 16pt;
+    font-weight: 600;
+    color: #b71616;
+    margin: 10px 0px;
+}
+
+.pizza-card > p
+{
+    font-size: 14.5pt;
+    font-weight: 700;
+    color: black;
+    
+    text-align: center;
+}
+
+.pizza-card > div 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 7px;
+}
+
+.pizza-card > div > div
+{
+    width: 20%;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.pizza-card > div > div:first-child, .pizza-card > div > div:last-child
+{
+    width: 40%;
+    text-align: center;
+    border-radius: 12px;
+}
+
+
+
+.pizza-card > div > div > a > img
+{
+    width: 30px;
+    height: 30px;
+}
